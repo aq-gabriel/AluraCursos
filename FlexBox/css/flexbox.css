@@ -25,13 +25,32 @@
     width: 25%;
 }
 
-.rodapePrincipal-contatoForm-fieldset{
+.rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
 
-.rodapePrincipal-navMap-list{
+.rodapePrincipal-navMap-list {
     display: flex;
     flex-direction: column;
     height: 230px;
     flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 20%;
+ 
+}
+
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right:0 ; 
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left:0 ; 
 }
